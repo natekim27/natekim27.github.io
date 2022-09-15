@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import React from 'react';
-import './App.css';
+import './App.scss';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>My React App</h1>
-      <h2>Author: Nate Kim</h2>
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
+    </>
   );
 }
 
