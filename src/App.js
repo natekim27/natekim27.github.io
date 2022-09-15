@@ -12,7 +12,7 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path="react-deploy" index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="project" element={<Project />} />
         <Route path="contact" element={<Contact />} />
