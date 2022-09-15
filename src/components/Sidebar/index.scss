@@ -26,14 +26,14 @@
     nav {
         display: block;
         text-align: center;
-        position: relative;
+        position: absolute;
         height: 210px;
-        top: 30%;
-        margin-top: 30px;
+        top: 50%;
+        margin-top: -120px;
         width: 100%;
 
         a {
-            font-size: 23px;
+            font-size: 22px;
             color: #4d4d4e;
             display: block;
             line-height: 51px;
@@ -46,8 +46,6 @@
             }
 
             &:hover {
-                color: white;
-                font-size: 15px;
                 svg {
                     color: white;
                     font-size: 27px;
@@ -56,15 +54,11 @@
         }
 
         a.active {
-            color: white;
-            font-size: 10px;
             svg {
                 color: white;
                 font-size: 27px;
             }
         }
-
-        
     }
     
     ul {
