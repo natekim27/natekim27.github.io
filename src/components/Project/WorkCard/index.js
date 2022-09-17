@@ -1,4 +1,3 @@
-// import "./index.scss"
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
@@ -10,7 +9,7 @@ function WorkCard(props) {
             <figure className='card_item_pic-wrap' data-category={props.label}>
               <img
                 className='card_item_img'
-                alt='Travel Image'
+                alt=''
                 src={props.src}
               />
             </figure>
@@ -24,31 +23,3 @@ function WorkCard(props) {
   }
   
 export default WorkCard;
-
-// const WorkCard = ({title, imageUrl, body}) => {
-//     return (
-//         <div className="card-container">
-//             <div className="img-container">
-//                 <img src={imageUrl} alt='' />
-//             </div>
-//             <div className="card-content">
-//                 <div className="card-title">
-//                     <h3>{title}</h3>
-//                 </div>
-//                 <div className="card-body">
-//                     <p>{body}</p>
-//                 </div>
-//             </div>
-            
-//             <div className="btn">
-//                 <button>
-//                     <a>
-//                         View
-//                     </a>
-//                 </button>
-//             </div>
-//         </div>
-//     )
-//  }
-
-//  export default WorkCard;

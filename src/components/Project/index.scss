@@ -1,6 +1,7 @@
 .project {
     padding: 4rem;
     background: #ffebd2;
+    height: calc(100%);
 }
 
 h1 {
@@ -25,9 +26,9 @@ h1 {
 
 .project_items {
   margin-bottom: 24px;
-  gap: 100px;
-  display: flex;
-  padding: 0px;
+  // gap: 100px;
+  // display: flex;
+  // padding: 0px;
 }
 
 .card_item {
@@ -117,13 +118,13 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
+  .project_items {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards__item {
+  .project_item {
     margin-bottom: 2rem;
   }
 }

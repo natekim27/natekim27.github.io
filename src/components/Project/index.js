@@ -1,33 +1,3 @@
-// import './index.scss'
-// import WorkCard from './WorkCard'
-// import pro1 from "../../assets/images/zeus_logo.png"
-
-// const Project = () => {
-//     return (
-//         <div className="project">
-//             {/* <div className="text-zone"> */}
-//             <h1>Check Out Some of the Cool Things I've Worked On!</h1>
-//             {/* </div> */}
-//             <div className="project_container">
-//                 <div className="project_wrapper">
-//                     <ul className="project_items">
-//                         <WorkCard
-//                             src={pro1}
-//                             text="Zeus: an all-in-one SMS Chat Service for weather!"
-//                             label="SMS Chat Bot"
-//                             path="yuh"
-//                         />
-//                     </ul>
-//                 </div>
-//             </div>
-            
-            
-//         </div>
-//     )
-// }
-
-// export default Project
-
 import React from 'react';
 import './index.scss';
 import WorkCard from './WorkCard';
@@ -36,7 +6,7 @@ import pro2 from "../../assets/images/zeus_logo.png"
 
 function Project() {
   return (
-    <div className='project'>
+    <div style={{overflowY:'scroll'}} className='project'>
       <h1>Check Out Some of the Cool Things I've Worked On!</h1>
       <div className='project_container'>
         <div className='project_wrapper'>
