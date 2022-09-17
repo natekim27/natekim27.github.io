@@ -5,7 +5,7 @@ const About = () => {
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
-                    About me   
+                    About Me  
                 </h1>
             
                 <p>Paragraph1</p>
