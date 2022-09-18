@@ -12,16 +12,16 @@ function Project() {
         <div className='project_wrapper'>
           <ul className='project_items'>
             <WorkCard
+              path='https://github.com/natekim27/Buzz-Tower-Defense'
               src={pro1}
               text='A GT Yellow Jackets vs Georgia Bulldogs Tower Defense game!'
               label='Buzz Tower Defense'
-              path='/services'
             />
             <WorkCard
               src={pro2}
               text='An all-in-one SMS chat bot that delivers daily reports as well as gives live weather updates!'
               label='Zeus'
-              path='/services'
+              path='https://github.com/natekim27/zeus'
             />
           </ul>
           <ul className='project_items'>

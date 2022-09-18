@@ -5,7 +5,7 @@ function WorkCard(props) {
     return (
       <>
         <li className='card_item'>
-          <Link className='card_item_link' to={props.path}>
+          <a className='card_item_link' href={props.path}>
             <figure className='card_item_pic-wrap' data-category={props.label}>
               <img
                 className='card_item_img'
@@ -16,7 +16,7 @@ function WorkCard(props) {
             <div className='card_item_info'>
               <h5 className='card_item_text'>{props.text}</h5>
             </div>
-          </Link>
+          </a>
         </li>
       </>
     );
