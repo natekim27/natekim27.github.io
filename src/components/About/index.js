@@ -4,14 +4,12 @@ const About = () => {
     return (
         <div className='container about-page'>
             <h1>About Me</h1>
-            <div className='about-container'>
-                <div className='text-zone background'>
-                    <h2>Background</h2>
-                </div>
-                <div className='text-zone interests'>
-                    <h2>Interests</h2>
-                </div>
-                <div className='text-zone skills'>
+            <div data-name='about' className='text-zone'>
+                <h2>Background</h2>
+                <p>This is my background yada yada</p>
+                <h2>Interests</h2>
+                <p>I'm interested in your mum</p>
+                <div className='skills'>
                     <h2>Skills</h2>
                     <ul>
                         <li>Skill1</li>

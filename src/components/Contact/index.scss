@@ -18,6 +18,7 @@
             animation: fadeInUp 2s 2s;
             animation-fill-mode: forwards;
             clear: both;
+            border-radius: 8px;
         }
 
         li.half{
@@ -66,7 +67,7 @@
         background-color: #ffe499;
         padding: 8px 10px;
         float: right;
-        border-radius: 4px;
+        border-radius: 8px;
 
         &:hover {
             background: #ffd700;
@@ -97,6 +98,10 @@
         padding-top: 20px;
         color: #ffd700; 
     }
+}
+
+.text-zone:nth-child(1) {
+    left: 8%;
 }
 
 .map-wrap {

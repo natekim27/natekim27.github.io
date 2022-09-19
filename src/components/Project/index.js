@@ -7,7 +7,7 @@ import pro2 from "../../assets/images/zeus_logo.png"
 function Project() {
   return (
     <div style={{overflowY:'scroll'}} className='project'>
-      <h1>Check Out Some of the Cool Things I've Worked On!</h1>
+      <h1>Personal Projects</h1>
       <div className='project_container'>
         <div className='project_wrapper'>
           <ul className='project_items'>
