@@ -7,19 +7,19 @@ import pro2 from "../../assets/images/zeus_logo.png"
 function Project() {
   return (
     <div style={{overflowY:'scroll'}} className='project'>
-      <h1>Personal Projects</h1>
+      <h1>Projects</h1>
       <div className='project_container'>
         <div className='project_wrapper'>
           <ul className='project_items'>
             <WorkCard
               path='https://github.com/natekim27/Buzz-Tower-Defense'
               src={pro1}
-              text='A GT Yellow Jackets vs Georgia Bulldogs Tower Defense game!'
+              text='GT Yellow Jackets vs Georgia Bulldogs Tower Defense game'
               label='Buzz Tower Defense'
             />
             <WorkCard
               src={pro2}
-              text='An all-in-one SMS chat bot that delivers daily reports as well as gives live weather updates!'
+              text='All-in-one SMS chat bot that delivers daily reports as well as gives live weather alerts'
               label='Zeus'
               path='https://github.com/natekim27/zeus'
             />
@@ -27,13 +27,13 @@ function Project() {
           <ul className='project_items'>
             <WorkCard
               src={pro1}
-              text='A web app that scrapes shopping sites and automatically purchases items when released!'
+              text='Web app that scrapes shopping sites and automatically purchases items when released'
               label='AWS Web Scrape Transaction Bot'
               path='/services'
             />
             <WorkCard
               src={pro1}
-              text="This very website you're using right now to get to know me!"
+              text="Personal website developed using React.js"
               label='React Personal Website'
               path='/products'
             />

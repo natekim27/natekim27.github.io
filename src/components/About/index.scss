@@ -7,17 +7,88 @@
 .personal-interests {
     position: absolute;
     bottom: 50%;
-    
+    width: 100%;
 }
 
 h1 {
     letter-spacing: 3px;
+    animation: fadeIn 0.3s 8s backwards;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
+    animation: fadeIn .5s 1s backwards;
 }
 
-li {
+p {
     font-size: 18px;
+}
+
+.skillbar {
+    position: relative;
+    left: -5%;
+    list-style: none;
+    animation: fadeIn 1s 1.5s backwards
+}
+
+.skillbar li {
+    // padding: 5px;
+    height: 0.6rem;
+    width: 100%;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    background: black;
+    padding: 0;
+    line-height: 18px;
+}
+
+.icon {
+    position: absolute;
+    top: -3rem;
+}
+
+
+.progress {
+    position: relative;
+    height: 100%;
+    background: #a1a1a1;
+
+    span {
+        position: absolute;
+        right: 0;
+        top: -3rem;
+        display: block;
+        color: white;
+        font-size: 1.1rem;
+        line-height: 1;
+        background: #313131;
+        padding: 0.6rem 0.6rem;
+        border: 1px solid #313131;
+        border-radius: 3px;
+    }
+    ::after {
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #313131;
+        content: "";
+    }
+}
+
+.percent70 {
+    width: 70%;
+}
+.percent60 {
+    width: 60%;
+}
+.percent50 {
+    width: 50%;
+}
+.percent40 {
+    width: 40%;
 }
