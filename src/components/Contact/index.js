@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet';
+import { Icon } from '@iconify/react';
 
 const Contact = () => {
     const form = useRef();
@@ -28,9 +29,14 @@ const Contact = () => {
                     <h1>
                         Contact Me
                     </h1>
-                    <p>
-                        Paragraph1
-                    </p>
+                    <div className='pics'>
+                        <ul>
+                            <Icon icon='akar-icons:phone' style={{ fontSize: '25px' }}/><b> : +1 (470) 865-2280</b>
+                        </ul>
+                        <ul>
+                            <Icon icon='fontisto:email' style={{ fontSize: '25px' }}/><b> : nathanielk0124@gmail.com</b>
+                        </ul>
+                    </div>
                     <div className='contact-form'>
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>

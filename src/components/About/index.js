@@ -1,7 +1,16 @@
 import './index.scss'
 import { Icon } from '@iconify/react'
+import ImageSlider from './ImageSlider'
 
 const About = () => {
+    const slides = [
+        {url: 'http://localhost:3000/react-deploy/bike.jpg', title: 'Bike'},
+        {url: 'http://localhost:3000/react-deploy/skydive.jpg', title: 'Skydive'},
+        {url: 'http://localhost:3000/react-deploy/pwpf.JPG', title: 'Pwpf'},
+        {url: 'http://localhost:3000/react-deploy/golf.jpg', title: 'Golf'},
+        {url: 'http://localhost:3000/react-deploy/strawberry.JPEG', title: 'Strawberry '}
+    ];
+
     return (
         <div style={{overflowY:'scroll'}} className='container about-page'>
             <h1>About Me</h1>
@@ -97,13 +106,72 @@ const About = () => {
             </div>
             <div className='personal-container'>
                 <div className='personal-pictures'>
-
+                    <ImageSlider slides={slides} />
                 </div>
                 <div className='personal-interests'>
                     <h2>Passions</h2>
-                    <p>
-                        hello
-                    </p>
+                    <ul className='passions'>
+                        <li>
+                            <h3><Icon icon='fluent-emoji-flat:desktop-computer' style={{ fontSize: '20px' }} /> Programming</h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Favorite Langauge:</b> Python
+                                </li>
+                                <li>
+                                    <b>Skills to Learn:</b> SQL, MongoDB, Machine Learning, Go
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3><Icon icon='emojione-v1:music-ascend' style={{ fontSize: '20px' }} /> Music</h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Instruments:</b> Guitar, Drums, Piano
+                                </li>
+                                <li>
+                                    <b>Favorite Songs:</b> Love on the Weekend (John Mayer), 2 Soon (Keshi)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3><Icon icon='fluent-emoji-flat:basketball' style={{ fontSize: '20px' }} /> Basketball</h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Favorite Team:</b> Los Angeles Lakers
+                                </li>
+                                <li>
+                                    <b>Favorite Player:</b> Stephen Curry
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3><Icon icon='emojione:airplane' style={{ fontSize: '20px' }} /> Traveling </h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Favorite Country Visited:</b> Japan
+                                </li>
+                                <li>
+                                    <b>Countries to Visit:</b> Switzerland, Iceland, Singapore
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3><Icon icon='noto:video-game' style={{ fontSize: '20px' }} /> Video Games</h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Favorite Games:</b> The Legend of Zelda: Breath of the Wild, Minecraft
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3><Icon icon='fluent-emoji-flat:ringed-planet' style={{ fontSize: '20px' }} /> Astronomy</h3>
+                            <ul className='passioninfo'>
+                                <li>
+                                    <b>Recent Interests:</b> Quasars, James Webb Space Telescope
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

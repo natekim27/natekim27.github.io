@@ -1,6 +1,6 @@
 .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: -10px;
 
     ul {
         padding: 0;
@@ -75,6 +75,16 @@
             color: black
         }
     }
+}
+
+.pics {
+    position: relative;
+    top: -20px;
+}
+b {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
 }
 
 .info-map {

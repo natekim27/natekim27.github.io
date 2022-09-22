@@ -5,19 +5,37 @@
     height: 90%;
 }
 .personal-interests {
-    position: absolute;
-    bottom: 50%;
+    position: relative;
+    height: 50%;
+    top: 55%;
     width: 100%;
+}
+.personal-pictures {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: 0 auto;
+}
+.text-zone {
+    top: 20%;
 }
 
 h1 {
     letter-spacing: 3px;
-    animation: fadeIn 0.3s 8s backwards;
+    animation: fadeIn 0.3s .8s backwards;
+    animation-fill-mode: forwards;
 }
 
 h2 {
     font-size: 30px;
     animation: fadeIn .5s 1s backwards;
+    // margin-top: 0px;
+    // margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 p {
@@ -42,6 +60,20 @@ p {
     background: black;
     padding: 0;
     line-height: 18px;
+}
+
+.passions {
+    list-style: none;
+    position: absolute;
+    left: -3%;
+    animation: fadeIn 1s 1.5s backwards;
+    top: 5rem;
+    margin-top: 0px;
+}
+.passioninfo {
+    position: relative;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
 .icon {
