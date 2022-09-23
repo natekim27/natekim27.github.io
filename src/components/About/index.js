@@ -4,11 +4,11 @@ import ImageSlider from './ImageSlider'
 
 const About = () => {
     const slides = [
-        {url: '/react-deploy/bike.jpg', title: 'Bike'},
-        {url: '/react-deploy/skydive.jpg', title: 'Skydive'},
-        {url: '/react-deploy/pwpf.JPG', title: 'Pwpf'},
-        {url: '/react-deploy/golf.jpg', title: 'Golf'},
-        {url: '/react-deploy/strawberry.JPEG', title: 'Strawberry '}
+        {url: '/assets/images/bike.jpg', title: 'Bike'},
+        {url: '/assets/images/skydive.jpg', title: 'Skydive'},
+        {url: '/assets/images/pwpf.JPG', title: 'Pwpf'},
+        {url: '/assets/images/golf.jpg', title: 'Golf'},
+        {url: '/assets/images/strawberry.JPEG', title: 'Strawberry '}
     ];
 
     return (

@@ -36,7 +36,7 @@ function Project() {
             <WorkCard
               src={pro4}
               text="Dynamic website developed for a personal portfolio"
-              label='React Personal Website'
+              label='Dynamic Personal Website'
               path='https://github.com/natekim27/react-deploy'
             />
           </ul>
