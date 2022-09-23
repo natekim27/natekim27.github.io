@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
-import img1 from '../../assets/images/profile.jpg';
 import background from '../../assets/images/background.jpeg';
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
 
     return (
         <div className="home-page" style={homeStyles}>
-            {/* <img className='profile-container' src={img1} alt=''></img> */}
             <div className="text-zone" style={{left: '30%'}}>
                 <h1>Hi, <br /> I'm
                 Nate Kim
