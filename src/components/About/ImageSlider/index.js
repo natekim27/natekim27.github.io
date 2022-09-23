@@ -14,7 +14,7 @@ const ImageSlider = ({ slides }) => {
         borderRadius: '10px',
         backgroundPosition: 'center',
         backgroundSize: "cover",
-        backgroundImage: `url(${process.env.PUBLIC_URL + slides[currentIndex].url})`,
+        backgroundImage: `url(${slides[currentIndex].url})`,
     };
 
     const leftArrowStyles = {

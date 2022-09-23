@@ -1,14 +1,19 @@
 import './index.scss'
 import { Icon } from '@iconify/react'
 import ImageSlider from './ImageSlider'
+import img1 from '../../assets/images/bike.jpg'
+import img2 from '../../assets/images/skydive.JPG'
+import img3 from '../../assets/images/pwpf.JPG'
+import img4 from '../../assets/images/golf.jpg'
+import img5 from '../../assets/images/strawberry.JPEG'
 
 const About = () => {
     const slides = [
-        {url: '/bike.jpg', title: 'Bike'},
-        {url: '/skydive.jpg', title: 'Skydive'},
-        {url: '/pwpf.JPG', title: 'Pwpf'},
-        {url: '/golf.jpg', title: 'Golf'},
-        {url: '/strawberry.JPEG', title: 'Strawberry '}
+        {url: img1, title: 'Bike'},
+        {url: img2, title: 'Skydive'},
+        {url: img3, title: 'Pwpf'},
+        {url: img4, title: 'Golf'},
+        {url: img5, title: 'Strawberry '}
     ];
 
     return (
