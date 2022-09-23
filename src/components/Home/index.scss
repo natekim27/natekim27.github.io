@@ -1,6 +1,5 @@
 .home-page {
-
-    .text-zone:nth-child(1) {
+    .text-zone {
         position: absolute;
         left: 30%;
         top: 50%;
@@ -11,7 +10,7 @@
     }
     
     h1 {
-        color: #000000;
+        color: white;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -19,14 +18,14 @@
     }
 
     h2 {
-        color: #888888;
+        color: whitesmoke;
         margin-top: 20px;
         margin-bottom: 40px;
-        font-weight: 400;
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 17px;
         font-family: sans-serif;
         letter-spacing: 3px;
-        animation: fadeIn 0.5s 1s backwards;
+        animation: fadeIn 1s 1.5s backwards;
     }
 
     .flat-button {
@@ -49,4 +48,15 @@
             color: #333
         }
     }
+
+    // .profile-container {
+    //     display:block;
+    //     top: 0%;
+    //     margin-left:auto;
+    //     margin-right: auto;
+    //     margin-top: 3%;
+    //     height: 35%;
+    //     border-radius: 50%;
+    //     // border: 2px solid black;
+    // }
 }

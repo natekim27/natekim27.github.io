@@ -1,10 +1,21 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
+import img1 from '../../assets/images/profile.jpg';
+import background from '../../assets/images/background.jpeg';
 
 const Home = () => {
+    const homeStyles = {
+        backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        width: '100%',
+        height: '100%',
+    }
+
     return (
-        <div className="container home-page">
-            <div className="text-zone">
+        <div className="home-page" style={homeStyles}>
+            {/* <img className='profile-container' src={img1} alt=''></img> */}
+            <div className="text-zone" style={{left: '30%'}}>
                 <h1>Hi, <br /> I'm
                 Nate Kim
                 </h1>

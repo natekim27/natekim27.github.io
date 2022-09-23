@@ -81,12 +81,14 @@
     position: relative;
     top: -20px;
     animation: fadeIn 1s 1s;
+    
+    b {
+        font-size: 15px;
+        position: relative;
+        top: -5px;
+    }
 }
-b {
-    font-size: 15px;
-    position: relative;
-    // top: -5px;
-}
+
 
 .info-map {
     position: absolute;
