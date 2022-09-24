@@ -22,16 +22,20 @@ const About = () => {
             <div data-name='about' className='text-zone'>
                 <h2>Background</h2>
                 <p>
-                    I am a third year undergraduate student at the Georgia Institute of Technology's College of Computing. (Go Jackets!)
-                    I'm studying computer science with a concentration in Intelligence and People. <br />
+                    I am a third year undergraduate student at the Georgia Institute of Technology's College of Computing 
+                    with concentrations in Intelligence and People. <br />
                     <br />
-                    As somebody who loves to create for impact while challenging myself, software engineering is the perfect field for me.
-                    There's never a dull moment in this field: the countless positive impressions left on the world and endless "Aha!" moments
-                    is what keeps me glued to software engineering. <br />
+                    As an innately curious individual who loves to create for impact, software engineering is the perfect field for me.
+                    There's never a dull moment: the countless positive impressions left on the world and endless "Aha!" moments
+                    is what keeps me glued to this field. Some areas of interest of mine are back-end development, cloud architecture, and machine learning, but
+                    I'm always excited to dive into new aspects of computer science!<br />
                     <br />
                     As for myself, I've gotten a diverse taste of software engineering:<br />
                     I've designed dynamic websites, written scripts to scrape websites for automatic transactions, 
                     developed a fully-interactive video game, and led a team to develop an SMS weather chat bot that won two awards.<br />
+                    <br />
+                    I'm always looking for opportunities to grow as a software engineer and expand my skills. So please feel free to reach out
+                    via email and check me out on my socials!
                 </p>
                 <div className='skills'>
                     <h2>Skills</h2>
@@ -123,7 +127,7 @@ const About = () => {
                                     <b>Favorite Langauge:</b> Python
                                 </li>
                                 <li>
-                                    <b>Skills to Learn:</b> SQL, MongoDB, Machine Learning, Go
+                                    <b>Skills to Learn:</b> SQL, PHP, Go, C#
                                 </li>
                             </ul>
                         </li>
