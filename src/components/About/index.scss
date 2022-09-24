@@ -15,7 +15,9 @@
     width: 600px;
     height: 370px;
     margin: 0 auto;
-    animation: fadeIn 1s 1s;
+    opacity: 0;
+    animation: fadeIn 1s .5s;
+    animation-fill-mode: forwards;
 }
 .text-zone {
     top: 20%;
@@ -23,13 +25,14 @@
 
 h1 {
     letter-spacing: 3px;
-    animation: fadeIn 0.3s .8s backwards;
-    animation-fill-mode: forwards;
+    // animation: fadeIn 0.3s .8s backwards;
+    // animation-fill-mode: forwards;
 }
 
 h2 {
     font-size: 30px;
-    animation: fadeIn .5s 1s backwards;
+
+    animation: fadeIn .5s .5s backwards;
     // margin-top: 0px;
     // margin-bottom: 0px;
 }
@@ -47,7 +50,7 @@ p {
     position: relative;
     left: -5%;
     list-style: none;
-    animation: fadeIn 1s 1.5s backwards
+    animation: fadeIn .5s 1s backwards
 }
 
 .skillbar li {
@@ -67,7 +70,7 @@ p {
     list-style: none;
     position: absolute;
     left: -3%;
-    animation: fadeIn 1s 1.5s backwards;
+    animation: fadeIn .5s 1s backwards;
     top: 5rem;
     margin-top: 0px;
 }
