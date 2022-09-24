@@ -65,7 +65,6 @@ const Contact = () => {
                     1374 Stirling Circle NW <br />
                     Atlanta, GA, 30318 <br />
                     United States <br />
-                    <span>nathanielk0124@gmail.com</span>
                 </div>
                 <div className='map-wrap'>
                      <MapContainer center={[33.79375533868981, -84.42880184341655]} zoom={13}>
