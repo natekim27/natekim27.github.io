@@ -44,9 +44,9 @@ const About = () => {
                             <div className='icon'>
                                 <Icon icon='logos:python' style={{ fontSize: '25px' }} />
                             </div>
-                            <div className='progress percent70'>
+                            <div className='progress percent90'>
                                 <span>
-                                    70%
+                                    90%
                                 </span>
                             </div>
                         </li>
@@ -54,9 +54,9 @@ const About = () => {
                             <div className='icon'>
                                 <Icon icon='logos:java' style={{ fontSize: '25px' }}/>
                             </div>
-                            <div className='progress percent70'>
+                            <div className='progress percent90'>
                                 <span>
-                                    70%
+                                    90%
                                 </span>
                             </div>
                         </li>
@@ -64,19 +64,9 @@ const About = () => {
                             <div className='icon'>
                                 <Icon icon='logos:git' style={{ fontSize: '25px' }}/>
                             </div>
-                            <div className='progress percent60'>
+                            <div className='progress percent80'>
                                 <span>
-                                    60%
-                                </span>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='icon'>
-                                <Icon icon='logos:c' style={{ fontSize: '25px' }}/>
-                            </div>
-                            <div className='progress percent50'>
-                                <span>
-                                    50%
+                                    80%
                                 </span>
                             </div>
                         </li>
@@ -84,19 +74,30 @@ const About = () => {
                             <div className='icon'>
                                 <Icon icon='logos:javascript' style={{ fontSize: '25px' }}/>
                             </div>
-                            <div className='progress percent40'>
+                            <div className='progress percent75'>
                                 <span>
-                                    40%
+                                    75%
                                 </span>
                             </div>
                         </li>
                         <li>
                             <div className='icon'>
+                                <Icon icon='logos:c' style={{ fontSize: '25px' }}/>
+                            </div>
+                            <div className='progress percent75'>
+                                <span>
+                                    75%
+                                </span>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div className='icon'>
                                 <Icon icon='logos:react' style={{ fontSize: '25px' }}/>
                             </div>
-                            <div className='progress percent40'>
+                            <div className='progress percent65'>
                                 <span>
-                                    40%
+                                    65%
                                 </span>
                             </div>
                         </li>
@@ -104,9 +105,9 @@ const About = () => {
                             <div className='icon'>
                                 <Icon icon='logos:aws' style={{ fontSize: '25px' }}/>
                             </div>
-                            <div className='progress percent40'>
+                            <div className='progress percent65'>
                                 <span>
-                                    40%
+                                    65%
                                 </span>
                             </div>
                         </li>
@@ -127,7 +128,7 @@ const About = () => {
                                     <b>Favorite Langauge:</b> Python
                                 </li>
                                 <li>
-                                    <b>Skills to Learn:</b> SQL, PHP, Go, C#
+                                    <b>Skills to Learn:</b> SQL, PHP, Go
                                 </li>
                             </ul>
                         </li>
