@@ -136,7 +136,7 @@ const About = () => {
                                     <b>Favorite Langauge:</b> Python
                                 </li>
                                 <li>
-                                    <b>Skills to Learn:</b> Go, MongoDB, Typescript
+                                    <b>Skills to Learn:</b> SQL, PHP, Go
                                 </li>
                             </ul>
                         </li>
