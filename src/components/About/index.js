@@ -1,11 +1,11 @@
 import './index.scss'
 import { Icon } from '@iconify/react'
 import ImageSlider from './ImageSlider'
-import img1 from '../../assets/images/bike.jpg'
-import img2 from '../../assets/images/skydive.JPG'
+import img1 from '../../assets/images/golden_gate.png'
+import img2 from '../../assets/images/yosemite.png'
 import img3 from '../../assets/images/pwpf.JPG'
 import img4 from '../../assets/images/golf.jpg'
-import img5 from '../../assets/images/strawberry.JPEG'
+import img5 from '../../assets/images/skydive.JPG'
 
 const About = () => {
     const slides = [
@@ -22,18 +22,26 @@ const About = () => {
             <div data-name='about' className='text-zone'>
                 <h2>Background</h2>
                 <p>
-                    I am a third year undergraduate student at the Georgia Institute of Technology's College of Computing 
-                    with concentrations in Intelligence and People. <br />
+                    I'm a computer science student at the Georgia Institute of Technology's College of Computing. I'm in my fourth year
+                    graduating December 2023, and I'll be entering the graduate program, starting January 2024 and graduating December 2024, where I'll be studying
+                    computer science with a concentration in Computing Systems. <br />
                     <br />
                     As an innately curious individual who loves to create for impact, software engineering is the perfect field for me.
-                    There's never a dull moment: the countless positive impressions left on the world and endless "Aha!" moments
-                    is what keeps me glued to this field. Some areas of interest of mine are back-end development, cloud architecture, and machine learning, but
-                    I'm always excited to dive into new aspects of computer science!<br />
+                    Some areas of interest of mine are back-end development, cloud architecture, and machine learning, but
+                    I'm always excited to dive into new aspects of computer science.<br />
                     <br />
                     As for myself, I've gotten a diverse taste of software engineering:<br />
-                    I've designed dynamic websites, written scripts to scrape websites for automatic transactions, 
-                    developed a fully-interactive video game, and led a team to develop an SMS weather chat bot that won two awards.<br />
-                    <br />
+                    <ul>
+                        <li>
+                            <b>Zoom: </b>Developed a QR code contact request feature for Android using Java, Kotlin, C++, and NDK.
+                            Featured at Zoomtopia 2023.
+                        </li>
+                        <li>
+                            <b>iParametrics, LLC: </b> Incorporated machine learning to predict the success of Hazard Mitigation Assistance Projects,
+                            assisting FEMA's fund distribution for over 30,000 projects. Developed a React.js web-app to display data for over 3,000
+                            U.S. counties.
+                        </li>
+                    </ul>
                     I'm always looking for opportunities to grow as a software engineer and expand my skills. So please feel free to reach out
                     via email and check me out on my socials!
                 </p>
@@ -119,7 +127,7 @@ const About = () => {
                     <ImageSlider slides={slides} />
                 </div>
                 <div className='personal-interests'>
-                    <h2>Passions</h2>
+                    <h2 id="heading__passions">Passions</h2>
                     <ul className='passions'>
                         <li>
                             <h3><Icon icon='fluent-emoji-flat:desktop-computer' style={{ fontSize: '20px' }} /> Programming</h3>

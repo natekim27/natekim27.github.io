@@ -14,8 +14,8 @@ const Home = () => {
     return (
         <div className="home-page" style={homeStyles}>
             <div className="text-zone" style={{left: '30%'}}>
-                <h1>Hi, <br /> I'm
-                Nate Kim
+                <h1>
+                    Nate Kim
                 </h1>
                 <h2>Computer Science @ Georgia Institute of Technology</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>

@@ -62,7 +62,7 @@ const Contact = () => {
                 <div className='info-map'>
                     Nathaniel Kim,
                     <br />
-                    1374 Stirling Circle NW <br />
+                    1738 Taylor St NW #B2 <br />
                     Atlanta, GA, 30318 <br />
                     United States <br />
                 </div>

@@ -9,6 +9,7 @@
     height: 50%;
     top: 45%;
     width: 100%;
+    margin-top: 8rem;
 }
 .personal-pictures {
     position: absolute;
@@ -43,14 +44,16 @@ h3 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
+    color: #313131;
 }
 
 .skillbar {
     position: relative;
     left: -5%;
     list-style: none;
-    animation: fadeIn .5s 1s backwards
+    animation: fadeIn .5s 1s backwards;
+    padding-bottom: 2rem;
 }
 
 .skillbar li {
